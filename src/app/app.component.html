@@ -4,33 +4,25 @@
 <link href=
 "https://fonts.googleapis.com/icon?family=Material+Icons&display=block" 
         rel="stylesheet">
-<body style="height: 800px;
-background: linear-gradient(90deg, #305ee4 50%, #cceaea 50%);
-display: flex;
-align-items: center;
-justify-content: center;">
-
-<div style="" ng-app="">
+<body class="home">
+  <mat-card class="background">
+<div class="POS"ng-app="">
+<div class="POS2">
   <H1>LOGIN</H1>
   <p></p>
   <p>Sign in to your account</p>
   <p></p>
+</div>
   <p>Username</p>
-  <div style="display: flex;
-  flex: 1;
-  align-items: center;
-  border-radius: 24px;">
+  <div class="Loginicon">
     <mat-icon>account_box</mat-icon>
 <input type="text" ng-model="name"></div>
   <p>Password</p>
-  <div style="display: flex;
-  flex: 1;
-  align-items: center;
-  border-radius: 24px;"><mat-icon>https</mat-icon><input type="text" ng-model="name"></div>
+  <div class="Loginicon"><mat-icon>https</mat-icon><input type="text" ng-model="name"></div>
   <p></p>
-  <p><input style="padding: 10px;" type="submit" value="LOGIN"></p>
+  <p><button mat-flat-button class="ex2">LOGIN</button></p>
 
 </div>
-
+</mat-card>
 </body>
 </html>
