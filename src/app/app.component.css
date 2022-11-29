@@ -1,42 +1,102 @@
-.Loginicon{
+.LoginIcon{
     display: flex;
+    position: relative;
     flex: 1;
     align-items: center;
-    border-radius: 24px;
+    width: 80%;
+    padding: 2px;
+   
+}
+input{
+  box-shadow: 5px 5px 5px 4px #abaab0;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  border:solid 1.5px #000;
+  margin:4px;
+  box-sizing: border-box;
+  padding-left:40px;
 }
 .home{
-    height: 800px;
-background: linear-gradient(90deg, #305ee4 50%, #cceaea 50%);
+height: 100%;
+background: linear-gradient(90deg, #222568 50%, #c7e7fe 50%);
 display: flex;
 align-items: center;
 justify-content: center;
 }
 .POS{
-  margin-top: 20px;
+  margin-top: 80px;
   margin-left: 480px;
 }
+.mat-icon{
+  vertical-align: text-top;
+}
 .POS2{
-  margin-left: 90px;
+  text-align: center;
+  margin-right: 75px;
+}
+.Head{
+  font-weight: 500;
+  font-size: 20px;
+  color: #3f3e7c;
 }
 .ex2 {
-    width: 250px;
-    padding: 10px;
-    background-color: blue;
-    color: #fff;
+  display: flex;
+  width: 74%;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: #2b2f6f;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 7px;
+  box-shadow: 3px 3px 5px 2px #abaab0;
+    
+  }
+  .Foot{
+    margin-top: 50px;
+    margin-left: 60px;
+    color: #2b286e;
+
+  }
+  .Ver{
+    margin: 0;
   }
   .background {
     position: relative;
     border-radius: 25px;
     background: url(https://thumbs.dreamstime.com/b/spring-flowers-blue-crocuses-drops-water-backgro-background-tracks-rain-113784722.jpg);
-    background-color: #f868db;
-    background-size: 400px 400px;
+    background-color: #fff;
+    background-size: 400px 500px;
     background-repeat: no-repeat;
     width: 800px;
-    height: 400px;
-    color:#fff;
+    height: 500px;
+    color:#000;
+    box-shadow: 3px 3px 25px 5px #383b6c;
   }
-.mat-icon{
-padding: 1px;
+.InfoIcon{
+  font-size: 16px;
+  color:#0577a9;
+  margin-left: 5px;
+
+}
+.Label{
+  display: flex;
+  flex-direction: row;
+  margin-left: 6px;
+  
+}
+.icon{
+  position:absolute;
+  left:0;
+  top: 5px;
+  font-size: 36px;
+  padding: 10px 10px;
 height: 20px !important;
-background-color: aqua;
+color:#0577a9;
+}
+.Arrow{
+  justify-self: flex-end;
 }

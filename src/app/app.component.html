@@ -8,20 +8,26 @@
   <mat-card class="background">
 <div class="POS"ng-app="">
 <div class="POS2">
-  <H1>LOGIN</H1>
-  <p></p>
+  <div class="Head">LOGIN</div>
   <p>Sign in to your account</p>
-  <p></p>
 </div>
-  <p>Username</p>
-  <div class="Loginicon">
-    <mat-icon>account_box</mat-icon>
-<input type="text" ng-model="name"></div>
-  <p>Password</p>
-  <div class="Loginicon"><mat-icon>https</mat-icon><input type="text" ng-model="name"></div>
-  <p></p>
-  <p><button mat-flat-button class="ex2">LOGIN</button></p>
-
+  <p class="Label">Username<mat-icon class="InfoIcon">info</mat-icon></p>
+  <form><div class="LoginIcon">
+    <mat-icon class="icon">account_box</mat-icon>
+<input type="text" placeholder="Username">
+</div>
+</form>
+<p></p>
+  <p class="Label">Password<mat-icon class="InfoIcon">info</mat-icon></p>
+  <form><div class="LoginIcon"><mat-icon class="icon">https</mat-icon>
+    <input type="password">
+  </div>
+</form>
+  <div class="ex2"><div></div>
+  <p class="Ver">LOGIN</p>
+  <mat-icon class="Arrow">arrow_right_alt</mat-icon>
+</div>
+<div class="Foot"><mat-icon class="InfoIcon">help_outline</mat-icon>Help & Support</div>
 </div>
 </mat-card>
 </body>
